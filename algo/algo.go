@@ -14,6 +14,7 @@ type Algo interface {
 	// card.
 	//
 	// old is a []bytes serialization of the internal algo parameters.
+	// Implementations should choose the serialization format
 	Update(old []byte, r review.ReviewItem) ([]byte, error)
 
 	// Due retrieves the Due Items (card ids)  that are overdue for time t (UTC)
