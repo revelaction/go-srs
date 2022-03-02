@@ -3,7 +3,7 @@ package review_test
 import (
 	"testing"
 
-    "github.com/revelaction/go-srs/review"
+	"github.com/revelaction/go-srs/review"
 )
 
 func TestValidateValid(t *testing.T) {
