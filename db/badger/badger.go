@@ -3,7 +3,7 @@ package badger
 
 import (
 	"fmt"
-	badger "github.com/dgraph-io/badger/v2"
+	badger "github.com/outcaste-io/badger/v3"
 	"strconv"
 	"strings"
 	"time"

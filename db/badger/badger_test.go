@@ -1,7 +1,7 @@
 package badger_test
 
 import (
-	badger "github.com/dgraph-io/badger/v2"
+	badger "github.com/outcaste-io/badger/v3"
 	"io/ioutil"
 	"os"
 	"testing"
@@ -170,9 +170,9 @@ func TestInsertNewAndReinsertWith(t *testing.T) {
 		t.Errorf("\nCheking len:\ngot %d\nwant %d", len(dueNew.Items), wantLenNew)
 	}
 
-    // we have now saved 2 card ids (1,2) in DeckId "hi". They are new so they
-    // have Due time 1 day later as now.  check before, we have no Due cards to
-    // review
+	// we have now saved 2 card ids (1,2) in DeckId "hi". They are new so they
+	// have Due time 1 day later as now.  check before, we have no Due cards to
+	// review
 	newNowBefore := now.Add(time.Hour * 24)
 	dueBefore, err := dbh.Due(wantNewDeckId, newNowBefore)
 	if err != nil {
@@ -260,7 +260,7 @@ func TestInsertAndUdpate(t *testing.T) {
 		{Quality: 3},
 	}
 
-	wantNewDeckId := "hi" 
+	wantNewDeckId := "hi"
 
 	// Call Insert method with
 	dueNew, err := dbh.Insert(r, wantNewDeckId)
@@ -273,8 +273,8 @@ func TestInsertAndUdpate(t *testing.T) {
 		t.Errorf("\nCheking len:\ngot %d\nwant %d", len(dueNew.Items), wantLenNew)
 	}
 
-    // we have now saved 2 card ids (1,2) in DeckId "hi". They are new so they
-    // have Due time 1 day later as now.  We check 1 day and 1 second later
+	// we have now saved 2 card ids (1,2) in DeckId "hi". They are new so they
+	// have Due time 1 day later as now.  We check 1 day and 1 second later
 	newNowAfter := now.Add(time.Hour * 24).Add(time.Second * 1)
 	dueAfter, err := dbh.Due(wantNewDeckId, newNowAfter)
 	if err != nil {
@@ -286,8 +286,8 @@ func TestInsertAndUdpate(t *testing.T) {
 		t.Errorf("\nCheking len:\ngot %d\nwant %d", len(dueAfter.Items), wantLenAfter)
 	}
 
-    // Let's move forward the time. That means a new now in the algo, we build
-    // again the badger wrapper:
+	// Let's move forward the time. That means a new now in the algo, we build
+	// again the badger wrapper:
 	// Algo
 	algo = sm2.New(newNowAfter)
 	// Db
