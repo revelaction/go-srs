@@ -7,8 +7,8 @@ servers.
 It currently provides: 
 
 - An implementation of the [SuperMemo 2](https://www.supermemo.com/english/ol/sm2.htm) (sm2) algorithm.
-- A local db client based on [badger](github.com/outcaste-io/badger).
-- A unique id generator based on [ulid](github.com/oklog/ulid).
+- A local db client based on [badger](https://github.com/outcaste-io/badger).
+- A unique id generator based on [ulid](https://github.com/oklog/ulid).
 
 ## Use
 
