@@ -12,7 +12,7 @@ It currently provides:
 
 ## Use
 
-First instantiate the srs struct with the provided algorithm, uid and db implementations:
+First, instantiate the srs struct with the provided algorithm, uid and db implementations:
 
 	// Algo
 	now := time.Now().UTC()
@@ -36,7 +36,7 @@ First instantiate the srs struct with the provided algorithm, uid and db impleme
 After that, you can update and save card reviews of a given deck:
 
 	r = review.Review{}
-	r.DeckId = 'somedeckid'
+	r.DeckId = "somedeckid"
 
 	r.Items = []review.ReviewItem{
 		{CardId: 65, Quality: 1},
