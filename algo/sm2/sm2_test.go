@@ -75,17 +75,17 @@ func ExampleAllCorrectHard() {
 
 	//Output:
 	//Now is '2020-11-01 00:00:00'
-	//Easiness:2.72, ConsecutiveCorrectAnswers:1, Due:2020-11-02 01:00:00
-	//Easiness:2.94, ConsecutiveCorrectAnswers:2, Due:2020-11-08 01:00:00
-	//Easiness:3.16, ConsecutiveCorrectAnswers:3, Due:2020-11-26 01:00:00
-	//Easiness:3.38, ConsecutiveCorrectAnswers:4, Due:2021-01-25 01:00:00
-	//Easiness:3.60, ConsecutiveCorrectAnswers:5, Due:2021-09-14 01:00:00
-	//Easiness:3.82, ConsecutiveCorrectAnswers:6, Due:2024-06-18 01:00:00
-	//Easiness:4.04, ConsecutiveCorrectAnswers:7, Due:2037-10-29 01:00:00
-	//Easiness:4.26, ConsecutiveCorrectAnswers:8, Due:2109-04-03 01:00:00
-	//Easiness:4.48, ConsecutiveCorrectAnswers:9, Due:2527-07-04 01:00:00
-	//Easiness:4.70, ConsecutiveCorrectAnswers:10, Due:5193-02-05 01:00:00
-	//Easiness:4.92, ConsecutiveCorrectAnswers:11, Due:23577-07-20 01:00:00
+	//Easiness:2.72, ConsecutiveCorrectAnswers:1, Due:2020-11-02 00:00:00
+	//Easiness:2.94, ConsecutiveCorrectAnswers:2, Due:2020-11-08 00:00:00
+	//Easiness:3.16, ConsecutiveCorrectAnswers:3, Due:2020-11-26 00:00:00
+	//Easiness:3.38, ConsecutiveCorrectAnswers:4, Due:2021-01-25 00:00:00
+	//Easiness:3.60, ConsecutiveCorrectAnswers:5, Due:2021-09-14 00:00:00
+	//Easiness:3.82, ConsecutiveCorrectAnswers:6, Due:2024-06-18 00:00:00
+	//Easiness:4.04, ConsecutiveCorrectAnswers:7, Due:2037-10-29 00:00:00
+	//Easiness:4.26, ConsecutiveCorrectAnswers:8, Due:2109-04-03 00:00:00
+	//Easiness:4.48, ConsecutiveCorrectAnswers:9, Due:2527-07-04 00:00:00
+	//Easiness:4.70, ConsecutiveCorrectAnswers:10, Due:5193-02-05 00:00:00
+	//Easiness:4.92, ConsecutiveCorrectAnswers:11, Due:23577-07-20 00:00:00
 
 }
 
@@ -118,12 +118,12 @@ func ExampleAllIncorrectEasy() {
 
 	//Output:
 	//Now is '2020-11-01 00:00:00'
-	//Easiness:2.34, ConsecutiveCorrectAnswers:1, Due:2020-11-02 01:00:00
-	//Easiness:2.18, ConsecutiveCorrectAnswers:0, Due:2020-11-03 01:00:00
-	//Easiness:2.02, ConsecutiveCorrectAnswers:0, Due:2020-11-04 01:00:00
-	//Easiness:1.86, ConsecutiveCorrectAnswers:0, Due:2020-11-05 01:00:00
-	//Easiness:1.70, ConsecutiveCorrectAnswers:0, Due:2020-11-06 01:00:00
-	//Easiness:1.54, ConsecutiveCorrectAnswers:0, Due:2020-11-07 01:00:00
+	//Easiness:2.34, ConsecutiveCorrectAnswers:1, Due:2020-11-02 00:00:00
+	//Easiness:2.18, ConsecutiveCorrectAnswers:0, Due:2020-11-03 00:00:00
+	//Easiness:2.02, ConsecutiveCorrectAnswers:0, Due:2020-11-04 00:00:00
+	//Easiness:1.86, ConsecutiveCorrectAnswers:0, Due:2020-11-05 00:00:00
+	//Easiness:1.70, ConsecutiveCorrectAnswers:0, Due:2020-11-06 00:00:00
+	//Easiness:1.54, ConsecutiveCorrectAnswers:0, Due:2020-11-07 00:00:00
 }
 
 func ExampleAllCorrectHardIncorrectEasyAlternate() {
@@ -158,13 +158,13 @@ func ExampleAllCorrectHardIncorrectEasyAlternate() {
 
 	//Output:
 	//Now is '2020-11-01 00:00:00'
-	//Easiness:2.50, ConsecutiveCorrectAnswers:0, Due:2020-11-02 01:00:00
-	//Easiness:2.72, ConsecutiveCorrectAnswers:1, Due:2020-11-04 01:00:00
-	//Easiness:2.56, ConsecutiveCorrectAnswers:0, Due:2020-11-05 01:00:00
-	//Easiness:2.78, ConsecutiveCorrectAnswers:1, Due:2020-11-07 01:00:00
-	//Easiness:2.62, ConsecutiveCorrectAnswers:0, Due:2020-11-08 01:00:00
-	//Easiness:2.84, ConsecutiveCorrectAnswers:1, Due:2020-11-10 01:00:00
-	//Easiness:2.68, ConsecutiveCorrectAnswers:0, Due:2020-11-11 01:00:00
+	//Easiness:2.50, ConsecutiveCorrectAnswers:0, Due:2020-11-02 00:00:00
+	//Easiness:2.72, ConsecutiveCorrectAnswers:1, Due:2020-11-04 00:00:00
+	//Easiness:2.56, ConsecutiveCorrectAnswers:0, Due:2020-11-05 00:00:00
+	//Easiness:2.78, ConsecutiveCorrectAnswers:1, Due:2020-11-07 00:00:00
+	//Easiness:2.62, ConsecutiveCorrectAnswers:0, Due:2020-11-08 00:00:00
+	//Easiness:2.84, ConsecutiveCorrectAnswers:1, Due:2020-11-10 00:00:00
+	//Easiness:2.68, ConsecutiveCorrectAnswers:0, Due:2020-11-11 00:00:00
 }
 
 func TestEasiness(t *testing.T) {
