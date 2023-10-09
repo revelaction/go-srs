@@ -1,13 +1,13 @@
 module github.com/revelaction/go-srs
 
-go 1.17
+go 1.21
 
-replace lukechampine.com/frand => github.com/lukechampine/frand v1.3.0
+replace lukechampine.com/frand => github.com/lukechampine/frand v1.4.2
 
 require (
-	github.com/oklog/ulid/v2 v2.0.2
+	github.com/oklog/ulid/v2 v2.1.0
 	github.com/outcaste-io/badger/v3 v3.2202.0
-	lukechampine.com/frand v0.0.0-00010101000000-000000000000
+	lukechampine.com/frand v1.4.2
 )
 
 require (
