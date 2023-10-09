@@ -1,5 +1,7 @@
 ## go-srs
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/revelaction/go-srs)](https://pkg.go.dev/github.com/revelaction/go-srs)
+
 `go-srs` provides a serie of libraries to easily build [spaced repetition
 learning](https://en.wikipedia.org/wiki/Spaced_repetition) capable programs and
 servers.
