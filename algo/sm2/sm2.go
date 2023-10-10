@@ -34,13 +34,13 @@
 //
 // Blueraja and wikipedia differ in some aspects:
 //
-// 1) EF in wikipedia is only changed with correct responses, in bluraja
+// 1) EF in wikipedia is changed only with correct responses, in bluraja
 // always, independent of q
 //
-// 2) blueraja increment n and uses it as input for Due days. We folow hier the
+// 2) blueraja increments n and uses it as input for Due days. We follow here the
 // wiki version
 //
-// 3) blueraja calculateds EF and uses it as input for Due days. We folow hier
+// 3) blueraja calculates EF and uses it as input for Due days. We follow here
 // the wiki version
 package sm2
 
