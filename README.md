@@ -1,7 +1,7 @@
 ## go-sm2
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/revelaction/go-srs)](https://pkg.go.dev/github.com/revelaction/go-srs)
-![test](https://github.com/revelaction/go-srs/actions/workflows/test.yml/badge.svg)
+[![Go Reference](https://pkg.go.dev/badge/github.com/revelaction/go-srs)](https://pkg.go.dev/github.com/revelaction/go-sm2)
+![test](https://github.com/revelaction/go-sm2/actions/workflows/test.yml/badge.svg)
 
 `go-sm2` provides a serie of libraries to easily build [spaced repetition
 learning](https://en.wikipedia.org/wiki/Spaced_repetition) capable programs and
