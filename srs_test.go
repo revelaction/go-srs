@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/revelaction/go-srs"
 	"github.com/revelaction/go-srs/algo/sm2"
 	bdg "github.com/revelaction/go-srs/db/badger"
 	"github.com/revelaction/go-srs/review"
-	"github.com/revelaction/go-srs"
 	"github.com/revelaction/go-srs/uid/ulid"
 )
 

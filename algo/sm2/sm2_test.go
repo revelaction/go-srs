@@ -132,12 +132,12 @@ func ExampleAllCorrectHardIncorrectEasyAlternate() {
 	fmt.Printf("Now is '%s'\n", now.Format("2006-01-02 15:04:05"))
 
 	reviews := []review.ReviewItem{
-		review.ReviewItem{CardId: 1, Quality: review.CorrectHard},
-		review.ReviewItem{CardId: 1, Quality: review.IncorrectEasy},
-		review.ReviewItem{CardId: 1, Quality: review.CorrectHard},
-		review.ReviewItem{CardId: 1, Quality: review.IncorrectEasy},
-		review.ReviewItem{CardId: 1, Quality: review.CorrectHard},
-		review.ReviewItem{CardId: 1, Quality: review.IncorrectEasy},
+		{CardId: 1, Quality: review.CorrectHard},
+		{CardId: 1, Quality: review.IncorrectEasy},
+		{CardId: 1, Quality: review.CorrectHard},
+		{CardId: 1, Quality: review.IncorrectEasy},
+		{CardId: 1, Quality: review.CorrectHard},
+		{CardId: 1, Quality: review.IncorrectEasy},
 	}
 
 	r := review.ReviewItem{CardId: 1, Quality: review.NoReview}
