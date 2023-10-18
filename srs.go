@@ -57,7 +57,7 @@ func (h *Srs) Update(r review.Review) (due review.Due, err error) {
 
 	}
 
-	//3) review has DeckId and cardIds: update for existant
+	//3) review has DeckId and cardIds: update for existent
 	due, err = h.Db.Update(r)
 	if err != nil {
 		return review.Due{}, err

@@ -58,7 +58,7 @@ func (h *Handler) Insert(r review.Review, deckId string) (res review.Due, err er
 		return res, nil
 	}
 
-	// Existant deckId
+	// Existent deckId
 	// Look up the last card id and insert after
 	var maxCardIdInDb int
 

@@ -136,7 +136,7 @@ func create(r review.ReviewItem, now time.Time) Item {
 		n.ConsecutiveCorrectAnswers = 0
 		n.Easiness = DefaultEasiness
 	} else {
-		// thsi is the first review for a new card
+		// this is the first review for a new card
 		n.Easiness = easiness(DefaultEasiness, quality(r.Quality))
 		n.ConsecutiveCorrectAnswers = 1
 	}
