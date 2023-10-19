@@ -5,10 +5,10 @@ import (
 )
 
 var (
-	ErrInvalidCardId       = errors.New("Card id is greater than max.")
-	ErrMixedCardId         = errors.New("The review contains mixed card ids.")
-	ErrCardIdWithoutDeckId = errors.New("Card id given but no deck id.")
-	ErrInvalidQuality      = errors.New("Invalid quality.")
+	ErrInvalidCardId       = errors.New("card id is greater than max")
+	ErrMixedCardId         = errors.New("the review contains mixed card ids")
+	ErrCardIdWithoutDeckId = errors.New("card id given but no deck id")
+	ErrInvalidQuality      = errors.New("invalid quality")
 )
 
 // Max num cards per DeckId

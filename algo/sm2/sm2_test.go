@@ -285,9 +285,6 @@ func floatEqual(a, b float64) bool {
 
 	percent := math.Abs(ab-bb) / ab
 	precision := 0.000000001 // nano
-	if percent > precision {
-		return false
-	}
 
-	return true
+	return percent <= precision
 }

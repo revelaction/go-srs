@@ -10,10 +10,10 @@ import (
 var (
 
 	// ErrDeckIdNotExists is returned when not found DeckId in the Db
-	ErrDeckIdNotExists = errors.New("Deck Id does not exists")
+	ErrDeckIdNotExists = errors.New("deck Id does not exists")
 
 	// ErrCardIdNotExists is returned when not found Card Id in the Db
-	ErrCardIdNotExists = errors.New("Card Id does not exists.")
+	ErrCardIdNotExists = errors.New("card Id does not exists")
 )
 
 // Handler interface abstracts the persistence of the updated Cards following a Review.

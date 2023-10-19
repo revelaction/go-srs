@@ -3,7 +3,6 @@ package srs_test
 import (
 	ulidPkg "github.com/oklog/ulid/v2"
 	badger "github.com/outcaste-io/badger/v3"
-	"io/ioutil"
 	"math/rand"
 	"os"
 	"testing"
@@ -23,7 +22,7 @@ func TestInsertNewDeckIdAndDue(t *testing.T) {
 	sm2 := sm2.New(now)
 
 	// Badger dir random
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -89,7 +88,7 @@ func TestInsertWithDeckIdAndDue(t *testing.T) {
 	sm2 := sm2.New(now)
 
 	// Badger dir random
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -171,7 +170,7 @@ func TestInsertUpdateDue(t *testing.T) {
 	now := time.Date(2020, time.November, 1, 0, 0, 0, 0, time.UTC)
 	sm2 := sm2.New(now)
 
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Fatal(err)
 	}

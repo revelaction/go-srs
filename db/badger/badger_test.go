@@ -2,7 +2,6 @@ package badger_test
 
 import (
 	badger "github.com/outcaste-io/badger/v3"
-	"io/ioutil"
 	"os"
 	"testing"
 	"time"
@@ -16,7 +15,7 @@ import (
 func TestInsertNewDeckId(t *testing.T) {
 
 	// Init badger
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Errorf("got unexpected error %s", err)
 	}
@@ -79,7 +78,7 @@ func TestInsertNewDeckId(t *testing.T) {
 func TestInsertNotExistingDeckId(t *testing.T) {
 
 	// Init badger
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Errorf("got unexpected error %s", err)
 	}
@@ -125,7 +124,7 @@ func TestInsertNotExistingDeckId(t *testing.T) {
 func TestInsertNewAndReinsertWith(t *testing.T) {
 
 	// Init badger
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Errorf("got unexpected error %s", err)
 	}
@@ -228,7 +227,7 @@ func TestInsertNewAndReinsertWith(t *testing.T) {
 
 func TestInsertAndUdpate(t *testing.T) {
 
-	dir, err := ioutil.TempDir(".", "badger")
+	dir, err := os.MkdirTemp(".", "badger")
 	if err != nil {
 		t.Errorf("got unexpected error %s", err)
 	}

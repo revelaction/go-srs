@@ -99,11 +99,6 @@ func TestValidate(t *testing.T) {
 	entropy := ulidPkg.Monotonic(rand.New(rand.NewSource(ti.UnixNano())), 0)
 	uid := ulid.New(entropy)
 
-	type test struct {
-		input string
-		want  []string
-	}
-
 	tests := []struct {
 		input string
 		want  bool

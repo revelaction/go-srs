@@ -44,7 +44,7 @@ func (h *Handler) Insert(r review.Review, deckId string) (res review.Due, err er
 	defer txn.Discard()
 
 	// New deck
-	if "" != deckId {
+	if deckId != "" {
 		r.DeckId = deckId
 		res, err = h.insertAfter(txn, 0, r)
 		if err != nil {
