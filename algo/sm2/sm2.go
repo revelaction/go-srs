@@ -90,7 +90,7 @@ func New(now time.Time) *Sm2 {
 // details
 func (s *Sm2) Update(oldItem []byte, r review.ReviewItem) ([]byte, error) {
 
-	newItem := Item{}
+	var newItem Item
 	// if empty -> new no ned to decode
 	if nil != oldItem {
 		decodedItem, err := decode(oldItem)
