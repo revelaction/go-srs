@@ -6,7 +6,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/revelaction/go-srs?style=flat)]() 
 
 
-`go-srs` provides libraries to build [spaced repetition
+`go-srs` provides a go implementation of the sm2 (SuperMemo) algorithm and libraries to build [spaced repetition
 learning](https://en.wikipedia.org/wiki/Spaced_repetition) capable programs and
 servers.
 
