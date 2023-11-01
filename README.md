@@ -3,7 +3,9 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/revelaction/go-srs)](https://pkg.go.dev/github.com/revelaction/go-srs)
 [![Test](https://github.com/revelaction/go-srs/actions/workflows/test.yml/badge.svg)](https://github.com/revelaction/go-srs/actions/workflows/test.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/revelaction/go-srs)](https://goreportcard.com/report/github.com/revelaction/go-srs)
-[![GitHub Release](https://img.shields.io/github/v/release/revelaction/go-srs?style=flat)]() 
+[![GitHub Release](https://img.shields.io/github/v/release/revelaction/go-srs?style=flat)]()
+[![GitHub Release](https://img.shields.io/built_with-Go-dca282.svg?style=flat-square)]() 
+https://img.shields.io/badge/built_with-Rust-dca282.svg?style=flat-square
 
 
 `go-srs` provides a go implementation of the sm2 (SuperMemo) algorithm and libraries to build [spaced repetition
