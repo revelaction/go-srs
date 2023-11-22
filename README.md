@@ -6,17 +6,18 @@
 [![GitHub Release](https://img.shields.io/github/v/release/revelaction/go-srs?style=flat)]()
 [![GitHub Release](https://img.shields.io/badge/built_with-Go-00ADD8.svg?style=flat)]() 
 
+go-srs: Empowering Spaced Repetition Learning in Go
 
+**go-srs** offers a comprehensive Go implementation of the [SuperMemo 2](https://www.supermemo.com/english/ol/sm2.htm) (sm2) algorithm, along with libraries designed to facilitate the creation of [spaced repetition
+learning](https://en.wikipedia.org/wiki/Spaced_repetition)-capable programs and servers.
 
-`go-srs` provides a go implementation of the sm2 (SuperMemo) algorithm and libraries to build [spaced repetition
-learning](https://en.wikipedia.org/wiki/Spaced_repetition) capable programs and
-servers.
+## Key Features: 
 
-It currently provides: 
+- **SuperMemo 2 (sm2) Algorithm Implementation:** go-srs includes a robust implementation of the SuperMemo 2 [(sm2) algorithm](algo/sm2/sm2.go).
 
-- An implementation of the [SuperMemo 2](https://www.supermemo.com/english/ol/sm2.htm) [(sm2) algorithm](algo/sm2/sm2.go)
-- A local db client based on [badger](https://github.com/outcaste-io/badger).
-- A unique id generator based on [ulid](https://github.com/oklog/ulid).
+- **Local Database Client:** Leveraging [badger](https://github.com/outcaste-io/badger), go-srs comes equipped with a local database client.
+
+- **Unique ID Generator:** The library features a unique ID generator based on [ulid](https://github.com/oklog/ulid).
 
 ## Use
 
