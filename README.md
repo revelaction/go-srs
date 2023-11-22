@@ -11,7 +11,7 @@ go-srs: Empowering Spaced Repetition Learning in Go
 **go-srs** offers a comprehensive Go implementation of the [SuperMemo 2](https://www.supermemo.com/english/ol/sm2.htm) (sm2) algorithm, along with libraries designed to facilitate the creation of [spaced repetition
 learning](https://en.wikipedia.org/wiki/Spaced_repetition)-capable programs and servers.
 
-## Key Features: 
+## Key Features 
 
 - **SuperMemo 2 (sm2) Algorithm Implementation:** go-srs includes a robust implementation of the SuperMemo 2 [(sm2) algorithm](algo/sm2/sm2.go).
 
