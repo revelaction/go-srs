@@ -6,6 +6,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/revelaction/go-srs?style=flat)]()
 [![GitHub Release](https://img.shields.io/badge/built_with-Go-00ADD8.svg?style=flat)]()
 ![GitHub stars](https://img.shields.io/github/stars/revelaction/go-srs?style=social)
+![sloc](https://sloc.xyz/github/revelaction/go-srs)
 
 **go-srs**: Empowering [spaced repetition learning](https://en.wikipedia.org/wiki/Spaced_repetition) in Go
 
